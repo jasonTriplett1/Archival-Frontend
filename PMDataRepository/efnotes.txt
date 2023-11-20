@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=localhost\sql2017;Initial Catalog=PlayerManagement;Encrypt=false;Trusted_Connection=True;" -OutputDir Models -ContextDir Context -Tables "Player", "CasinoGroup", "PlayerGroup", "ConfigItem","ConfigGlobal" -DataAnnotations -Force -Project "PMDataRepository" -Provider "Microsoft.EntityFrameworkCore.SqlServer"

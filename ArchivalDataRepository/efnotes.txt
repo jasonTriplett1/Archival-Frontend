@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=localhost\sql2017;Initial Catalog=PMDataArchival;Encrypt=false;Trusted_Connection=True;" -OutputDir Models -ContextDir Context -Tables "PlayersToBePurged_Completed", "PlayersToBePurged","IGT_Versions", "Status"  -DataAnnotations -Force -Project "ArchivalDataRepository" -Provider "Microsoft.EntityFrameworkCore.SqlServer"
